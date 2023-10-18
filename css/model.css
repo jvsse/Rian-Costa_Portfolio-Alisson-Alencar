@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Gabarito', sans-serif;
+    background-color: #000000;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.alisson {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #460e0e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.logo>img {
+    width: 25%;
+    height: 65%;
+    margin-left: 20%;
+}
+
+.nav-links {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links>ul {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+}
+
+.nav-links>ul>li {
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links>ul>li>a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav-links>ul>li>a:hover {
+    border-bottom: solid 3px #000000;
+}
+
+.nav-links>ul>li>ul {
+    display: none;
+}
+
+.nav-links>ul>li:hover ul {
+    display: flex;
+    width: 35%;
+    height: 220%;
+    background-color: #201e1e;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    list-style: none;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    z-index: 2;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    animation: drop 0.2s ease-out;
+}
+
+.menu-drop>li {
+    width: 80%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 0.5px #fff;
+}
+
+.menu-drop>li>a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    animation: drop-font 0.2s ease-out;
+}
+
+.menu-drop>li>a:hover {
+    color: #909a92;
+}
+
+.github {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.github>a {
+    width: 17%;
+    height: 45%;
+    margin-right: 20%;
+}
+
+.github>a>img {
+    width: 100%;
+    height: 100%;
+}
+
