@@ -34,7 +34,6 @@ li::after{
 	content: var(--separator);
 	color: #ef5016;
 	transition: color ease 200ms;
-	font-weight: 700;
 }
 
 /* "Hold on, add a comma along with an 'and' after the second last list item." */
@@ -67,8 +66,8 @@ li::marker{
 
 /* layout and decoration */
 :root{
-	--accent: #f22424;
-	--accent-alpha: #f22424bb;
+	--accent: #942b2bbb;
+	--accent-alpha: #942b2bbb;
 	--text: #000;
 	--text-secondary: #000000cc;
 	--container: #fff;
@@ -91,7 +90,6 @@ html, body{
 
 html{
 	color: var(--text);
-	font-size: 1.28em;
 	font-weight: 500;
 	display: block;
 	background-image: radial-gradient(circle at 50%, #fff, #eee);

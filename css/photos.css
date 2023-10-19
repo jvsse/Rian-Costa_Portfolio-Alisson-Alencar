@@ -61,7 +61,9 @@ section{
   
   .card{
        border-radius:25px;
+       
         box-shadow: -2px 4px 15px rgb(0 0 0 / 26%);
+
     
       @include mQ(470px){
       grid-column:span 1;
@@ -108,10 +110,12 @@ font-size: clamp(0.9rem, 0.8750rem + 0.1250vw, 1rem);
     
     img{
       border-radius:25px;
+      
     }
     .card__img{
       position:relative;
       height:100%;
+      
       
       .card__overlay{
         position:absolute;
@@ -128,6 +132,7 @@ background: linear-gradient(0deg, rgb(0 0 0 / 57%) 0%, rgb(255 255 255 / 0%) 100
         display:flex;
         justify-content:flex-end;
         flex-direction:column;
+        
       }
       
       span{
